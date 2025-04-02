@@ -2,13 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -382,7 +375,7 @@ body {
 
 .header-action-btn,
 .nav-open-btn {
-  font-size: 24px;
+  font-size: 20px;
   transition: var(--transition-1);
 }
 
@@ -391,6 +384,7 @@ body {
 }
 
 .header-action-btn { position: relative; }
+.header-action { gap: 25px; }
 
 .header-action-btn .span {
   position: absolute;
@@ -782,9 +776,9 @@ body {
   bottom: 30px;
   right: 20px;
   background-color: var(--maximum-blue-green);
-  font-size: 20px;
-  padding: 10px;
-  border-radius: var(--radius-circle);
+  font-size: 10px;
+  padding: 10px 15px;
+  border-radius: 100%;
   transition: var(--transition-1);
   opacity: 0;
   visibility: hidden;
@@ -824,7 +818,7 @@ body {
   .grid-list { grid-template-columns: 1fr 1fr; }
 
   .scrollbar-item { min-width: calc(50% - 5px); }
-
+  .header-action { gap: 20px; }
 
 
   /**
@@ -835,8 +829,8 @@ body {
     display: block;
     color: var(--maximum-blue-green);
     border: 1px solid var(--maximum-blue-green);
-    font-size: 22px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 10px 15px;
     border-radius: var(--radius-circle);
     animation: pulse 2.5s ease infinite;
   }
@@ -904,15 +898,16 @@ body {
   }
 
   .has-scrollbar { gap: 30px; }
+  .header-action { gap: 25px; }
   
   .scrollbar-item { min-width: calc(50% - 15px); }
 
   .product-card .card-action {
-    gap: 20px;
-    padding: 14px 20px;
+    gap: 15px;
+    padding: 6px 22px;
   }
 
-  .product-card .action-btn { font-size: 22px; }
+  .product-card .action-btn { font-size: 15px; }
 
   .product-card .card-content { padding: 0 20px 20px; }
 
@@ -1263,7 +1258,7 @@ body {
     bottom: 70px;
     right: 30px;
     font-size: 25px;
-    padding: 15px;
+    padding: 10px 15px;
   }
 
 }
